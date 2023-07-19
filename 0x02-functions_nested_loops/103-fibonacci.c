@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 1; i <= 33; ++i)
 	{
-		if (j < 400000 && (j % 2) == 0)
+		if (j < 4000000 && (j % 2) == 0)
 		{
 			sum = sum + j;
 		}
@@ -25,7 +25,7 @@ int main(void)
 		k = next;
 	}
 
-	printf("%u\n", sum);
+	printf("%lu\n", sum);
 
 	return (0);
 }
